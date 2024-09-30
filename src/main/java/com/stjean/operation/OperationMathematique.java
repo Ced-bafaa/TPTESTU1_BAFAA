@@ -7,7 +7,7 @@ public class OperationMathematique {
     }
 
     public int factoriel(int nombre) {
-        if (nombre == 0) return 1;
+        if (nombre== 0) return 1;
         int result = 1;
         for (int i = 1; i <= nombre; i++) {
             result *= i;
