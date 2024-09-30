@@ -3,7 +3,7 @@ package com.stjean.operation;
 public class OperationMathematique {
 
     public boolean estPositif(int nombre) {
-        return nombre >= 0;
+        return nombre >=0;
     }
 
     public int factoriel(int nombre) {
